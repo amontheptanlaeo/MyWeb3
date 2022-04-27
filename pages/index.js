@@ -53,7 +53,7 @@ export default function Home() {
   };
 
   const { fetch, error, isFetching } = useWeb3Transfer({
-    amount: Moralis.Units.Token(20, 18),
+    amount: Moralis.Units.Token("0.5", "18"),
     receiver: "0x8C91C678259f2D5171D63A1988f1bFa086fe511e",
     type: "erc20",
     contractAddress: "0xf182c2fe6f1db155ffff841660456d6685136b6b",
