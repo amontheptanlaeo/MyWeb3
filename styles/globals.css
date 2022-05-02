@@ -2,8 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body{
+  background-color: #ffbd61;
+  /* border: 30px solid black; */
+  /* outline: 10px solid #ff9500;
+  outline-offset: -15px;
+  outline-style: dashed; */
+  font-family: 'Nova Round', cursive;
+}
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ffbd61;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #884d00;
+  border-radius: 10px;
 }
